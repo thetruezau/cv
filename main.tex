@@ -1,0 +1,297 @@
+% Font sizes: 10, 11, or 12
+% Paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape
+\documentclass[11pt,a4paper]{moderncv} 
+
+% Theme: casual, classic, oldstyle and banking
+\moderncvstyle{classic} 
+
+% Color: blue, orange, green, red, purple, grey and black
+\moderncvcolor{blue} 
+
+% Width of the dates column
+\setlength{\hintscolumnwidth}{2.8cm} 
+
+% Adjust the width of the space allocated to your name
+\setlength{\makecvtitlenamewidth}{0cm} 
+
+% Packages
+\usepackage[scale=0.85]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{standalone}
+\usepackage{fontawesome}
+\usepackage{marvosym}
+\usepackage{beton}
+\usepackage{multibbl}
+
+% Name and Contact Information
+\firstname{Guilherme}
+\familyname{Duarte}
+\title{Curriculum Vitae}
+\mobile{(+351) 910287588}
+\email{guilherme.duarte@fc.up.pt}
+\address{Department of Computer Science}{Faculdade de Ciências da Universidade do Porto}
+\homepage{dblp.org/pid/303/1294-1.html}{dblp page}
+%\quote{Not Attention, Patience is all we need.}
+%\photo[70pt][0.3pt]{picture}
+
+
+
+\begin{document}
+\makecvtitle 
+
+% Personal Details
+\section{Information}
+\cventry{}{Full Name: \textnormal{Guilherme Manuel Carvalho de Melo Duarte}}{}{}{}{}
+\cventry{}{Date of Birth: \textnormal{25th of October 2000}}{}{}{}{}
+\cventry{}{Nationality: \textnormal{Portuguese}}{}{}{}{}
+
+
+
+% Research Interests
+\section{Research Interests}
+\cvitem
+	{}
+	{Formal Languages and Automata Theory, Combinatorial Analytics, Descriptional Complexity, Average-Case Complexity, Algorithms and Complexity Analysis.}
+
+
+
+% Education
+\section{Education}
+\cventry
+	{2024 -- present}
+	{PhD in Computer Science}
+	{Faculdade de Ciências da Universidade do Porto, Portugal}{}
+	{}{}
+\cventry
+	{2022 -- 2024}
+	{MSc in Computer Science}
+	{Faculdade de Ciências da Universidade do Porto, Portugal}{}
+	{Specialisation in Reliable Computing}
+	{Grade: 18/20}
+\cventry
+	{2019 -- 2022}
+	{BSc in Computer Science}
+	{Faculdade de Ciências da Universidade do Porto, Portugal}{}
+	{Complementary Formation Centred in Computer Science}
+	{Grade: 18/20}
+
+
+
+% Publications
+\section{Publications}
+
+\subsection{Conference and Workshop Papers}
+\cventry
+	{2025}
+	{G. Duarte, N. Moreira, and R. Reis}{}
+	{Two-Word Shuffle: Some Results}
+	{in \textit{The 26th International Conference on Descriptional Complexity of Formal Systems, Loughborough, United Kingdom}}{}
+\cventry
+	{2024}
+	{G. Duarte, N. Moreira, L. Prigioniero, and R. Reis}{}
+	{Operational Complexity on Block Languages}
+	{in \textit{The 14th International Workshop on Non-Classical Models of Automata and Applications, Göttingen, Germany}}{}
+\cventry
+	{}
+	{G. Duarte, N. Moreira, L. Prigioniero, and R. Reis}{}
+	{Block Languages and their Bitmap Representations}
+	{in \textit{The 28th International Conference on Implementation and Application of Automata, Akita, Japan}}{}
+\cventry
+	{}
+	{M. Cunha, G. Duarte, R. Andrade, R. Mendes, and J. P. Vilela}{}
+	{Privkit: A Toolkit of Privacy-Preserving Mechanisms for Heterogeneous Data Types}
+	{in \textit{The 14th ACM Conference on Data and Application Security and Privacy, Porto, Portugal}}{}
+\cventry
+	{}
+	{G. Duarte, M. Cunha, and J. P. Vilela}{}
+	{A Privacy-Aware Remapping Mechanism for Location Data}
+	{in \textit{The 39th ACM/SIGAPP Symposium On Applied Computing, Avila, Spain}}{}
+
+
+\subsection{Thesis}
+\cventry
+	{2024}
+	{G. Duarte}{}
+	{Minimal Automata and Operational State Complexity of Block Languages}
+	{MSc thesis}
+	{Advised by Rogério Reis and Nelma Moreira\\ Grade: 20/20}
+\cventry
+	{2022}
+	{G. Duarte}{}
+	{Enhancing a Framework for Location Privacy}
+	{BSc thesis}
+	{Advised by João P. Vilela and Mariana Cunha\\ Grade: 18/20}
+
+
+
+% Grants
+\section{Grants}
+\cventry
+	{January, 2025 -- present}
+	{PhD Studentship}
+	{Fundação para a Ciência e a Tecnologia}{}
+	{2024.01528.BD}
+	{Departamento de Ciências de Computadores da Faculdade de Ciências da Universidade do Porto.}
+\cventry
+	{June, 2024 -- December, 2024}
+	{Research Grant Bachelor's Degree}
+	{Centro de Matemática da Universidade do Porto}{}
+	{UIDB-00144-2020}
+	{Departamento de Ciências de Computadores da Faculdade de Ciências da Universidade do Porto.}
+\cventry
+	{January, 2023 -- June, 2023}
+	{Research Fellowship}
+	{Centro de Informática e Sistemas da Universidade de Coimbra}{}
+	{IT137-22-169}
+	{Departamento de Engenharia Informática da Faculdade de Ciências e Tecnologia da Universidade de Coimbra.}
+\cventry
+	{March, 2022 -- November, 2022}
+	{Research Initiation Fellowship}
+	{Centro de Matemática da Universidade do Porto}{}
+	{UIDB-00144-2020}
+	{Departamento de Matemática da Faculdade de Ciências da Universidade do Porto.}
+
+
+
+% Software
+\section{Software}
+\cventry
+	{September, 2024 -- present}
+	{Descriptional Complexity DataBase (DesCo)}
+	{\href{http://khilas.dcc.fc.up.pt/desco}{khilas.dcc.fc.up.pt/desco}}{}{}
+	{DesCo is a Web based information system for descriptional complexity results, currently focused on the operational complexity of regular and subregular languages.}
+\cventry
+	{September, 2023 -- present}
+	{Tools for Formal Languages Manipulation (FAdo)}
+	{\href{https://fado.dcc.fc.up.pt}{fado.dcc.fc.up.pt}}{}{}
+	{The FAdo system provides an open source extensible high-performance software library for the symbolic manipulation of automata and other models of computation.}
+\cventry
+	{February, 2022 -- September, 2023}
+	{A Privacy Toolkit (Privkit)}
+	{\href{https://privkit.fc.up.pt/}{privkit.fc.up.pt}}{}{
+	}{Privkit is a privacy toolkit for testing privacy-preserving mechanisms and to quantify the achieved privacy/utility level.}
+
+
+
+% Positions of Responsibility
+\section{Positions of Responsibility}
+
+\subsection{Local Arrangement Committee}
+\cventry
+	{June, 2024}
+	{The 14th ACM Conference on Data and Application Security and Privacy}{}{}
+	{Porto, Portugal}{}
+\cventry
+	{May, 2022}
+	{Final das Olimpíadas Nacionais de Informática}{}{}{Porto, Portugal}{}
+
+
+\subsection{Peer Review}
+\cvitem
+	{2025 -- present}
+	{Conference on Descriptional Complexity of Formal Systems.}
+\cvitem
+	{}
+	{Workshop on Non-Classical Models of Automata and Applications.}
+\cvitem
+	{}
+	{Conference on Developments in Language Theory.}
+\cvitem
+	{2024 -- present}
+	{Conference on Implementation and Application of Automata.}
+
+
+
+% Activities
+\section{Activities}
+
+\subsection{Presentation of Papers}
+\cventry
+	{2025}
+	{Two-Word Shuffle: Some Results}{}
+	{in \textit{The 26th International Conference on Descriptional Complexity of Formal Systems, Loughborough, United Kingdom}}{}{}
+\cventry
+	{2024}
+	{Operational Complexity on Block Languages}{}
+	{in \textit{The 14th International Workshop on Non-Classical Models of Automata and Applications, Göttingen, Germany}}{}{}
+\cventry
+	{}
+	{A Privacy-Aware Remapping Mechanism for Location Data}{}
+	{in \textit{The 39th ACM/SIGAPP Symposium On Applied Computing, Avila, Spain}}{}{}
+
+
+
+% Teaching
+\section{Teaching}
+\cventry
+	{Fall 2025}
+	{Programming I}{CC1015}
+	{in Faculdade de Ciências da Universidade do Porto}{}{}
+\cventry
+	{Spring 2025}
+	{Computational Models}{CC1004}
+	{in Faculdade de Ciências da Universidade do Porto}{}{}
+
+
+
+% Students
+\section{Students}
+\cventry
+	{2024 -- 2025}
+	{Ana Sofia Teixeira}{DesCo -- A Descriptional Complexity Platform}
+	{in Faculdade de Ciências da Universidade do Porto}{}
+	{MSc co-advisor}
+
+
+
+% Referees
+%\section{Referees}
+%\begin{tabular}{lr}
+%% Referee 1
+%\begin{minipage}[t]{3in}
+%\textbf{Dr. XXXXX XXXXX}\\
+%\textit{Associate Professor, Department of} \\
+%\textit{Computer Science \& Engineering}\\
+%Institute name\\
+%\Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+%\end{minipage}
+%&
+%% Referee 2
+%\begin{minipage}[t]{3in}
+%\textbf{Dr. XXXXX XXXXX}\\
+%\textit{Associate Professor, Department of} \\
+%\textit{Computer Science \& Engineering}\\
+%Institute name\\
+%\Telefon\ +(601) 877-6236\\
+%\Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+%\end{minipage}
+%\\
+%\\ % Additional newline for spacing.
+%% Referee 3
+%\begin{minipage}[t]{3in}
+%\textbf{Dr. XXXXX XXXXX}\\
+%\textit{Associate Professor, Department of} \\
+%\textit{Computer Science \& Engineering}\\
+%Institute name\\
+%\Telefon\ +(601) 877-6236\\
+%\Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+%\end{minipage}
+%&
+%\\
+%\end{tabular}
+
+% Work
+%\section{Research Experience}
+%
+%\cventry{September, 2023 -- present}{\textit{Automata Theory and Formal Languages}}{}{}{CMUP}
+%{Succinct representations of regular expressions, analysis of operational state complexity for some families of languages, and implementation of algorithms in a system of symbolic manipulation of automata and formal languages (FAdo).}
+%\cvitem{}{Advisors: Rogério Reis, and Nelma Moreira}
+%
+%\cventry{January, 2022 -- September, 2023}{\textit{Location Privacy, Security, and Applied Computing}}{}{}{CISUC}
+%{Development and implementation of location privacy preservation and location attack mechanisms.}
+%\cvitem{}{Advisor: João P. Vilela}
+%
+%\cventry{March, 2022 -- November, 2022}{\textit{Web Development}}{}{}{CMUP}
+%{Development and implementation of extensions to the Drupal web platform on the website \href{https://cmup.pt/}{cmup.fc.up.pt}.}
+
+\end{document}
