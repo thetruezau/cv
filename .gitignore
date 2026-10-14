@@ -35,3 +35,4 @@
 ## Build tool directories for auxiliary files
 # latexrun
 latex.out/
+main.pdf
